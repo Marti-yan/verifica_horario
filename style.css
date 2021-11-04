@@ -1,0 +1,39 @@
+:root{
+  --text: center;
+}
+body {
+  background: rgb(129, 175, 253);
+  
+  height: 100vh;
+  font: normal 15pt Arial;
+}
+header {
+  text-align: var(--text);
+  color: #fff;
+}
+section {
+    background: rgba(255, 255, 255, 0.705);
+    border-radius: 10px;
+    padding:15px;
+    width: 85%;
+    margin:  auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.74);
+    max-width:600px;
+
+}
+footer {
+  text-align: var(--text);
+  font-style: italic;
+  color:#fff;
+}
+div img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 15%;
+  width:100%;
+  height: 100%;
+  
+}
+#horario{
+  text-align: var(--text);
+}
